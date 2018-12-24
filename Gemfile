@@ -2,7 +2,6 @@ source 'http://rubygems.org'
 ruby '>= 2.2.0'
 
 gemspec
-
 gem 'codecov', require: false, group: :test
 
 if RUBY_VERSION < '2.2.2'
